@@ -18,3 +18,13 @@ yarn build
 ```
 
 2. Copy the content from the `buid` directory, to the site `/envivo` directory 
+
+## Why
+
+I'm a hude locomotion channel fan 😄! 
+
+Simply the best channel ever created... 
+
+So this little project is a fan-to-fan work.
+
+Go team loco!
