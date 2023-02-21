@@ -5,8 +5,8 @@ Better version os the current http://locomotiontv.com/envivo player.
 That includes:
 - Fluid layout
 - Themed player
-- Health checking 
-- Updated links for the creato's facebook page
+- Health checking (for the stream links) 
+- Updated links for the creator's facebook page
 
 ![image](https://user-images.githubusercontent.com/702452/220458891-a215beed-84bb-46c0-846f-8aa482ffef79.png)
 
