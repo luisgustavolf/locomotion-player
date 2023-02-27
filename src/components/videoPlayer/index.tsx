@@ -1,16 +1,16 @@
 import * as React from 'react'
-import videojs from 'video.js';
-import Player from 'video.js/dist/types/player';
 import { VideoJsOptions } from './types';
-import 'video.js/dist/video-js.css';
 import './styles.scss'
+
+const videojs = (window as any).videojs
+
 export interface VideoPlayerProps {
   options: VideoJsOptions
 }
 
 export function VideoPlayer(props: VideoPlayerProps) {
   const placeholderRef = React.useRef<HTMLDivElement>(null);
-  const playerRef = React.useRef<Player | null>(null);
+  const playerRef = React.useRef<any | null>(null);
 
   const mountPlayer = React.useCallback(() => {
     if (!playerRef.current) {
